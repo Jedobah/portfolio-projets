@@ -19,7 +19,10 @@ a:visited {
   text-decoration: none;
   color: black;
 }
-a, .btn, footer li {
+a, .btn,  {
+  -webkit-tap-highlight-color: transparent;
+}
+footer li {
   -webkit-tap-highlight-color: transparent;
 }
  .btn:focus {
