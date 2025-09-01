@@ -91,14 +91,15 @@ textarea {
   box-shadow: inset 0 1px 0 rgba(214, 214, 214, 0.631);
 }
 
-footer a {
+footer li {
   display: inline-block;
+  cursor: pointer;
   border: 1px solid rgba(190, 190, 190, 0.785);
   border-radius: 50%;
   transition: 0.8s ease-in-out;
 }
 
-footer a:hover {
+footer li:hover {
   color: aliceblue;
   background-color: rgb(97, 100, 117);
 }
@@ -279,7 +280,7 @@ margin-left: 19px;
   
 }
 
-footer a{
+footer li {
   font-size: 1.5rem;
 height: 40px;
 width: 40px;
@@ -496,7 +497,7 @@ nav ul li a:hover {
     padding: 5px 10px;
     font-size: 0.7rem;
   }
-  footer a {
+  footer li  {
     font-size: 1.2rem;
     height: 30px;
     width: 30px;
