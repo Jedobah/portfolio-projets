@@ -19,7 +19,13 @@ a:visited {
   text-decoration: none;
   color: black;
 }
-
+a, .btn {
+  -webkit-tap-highlight-color: transparent;
+}
+ .btn:focus {
+  outline: 2px solid #56708d4a; 
+  
+}
 h1 {
   font-size: 3rem;
   font-weight: 300;
