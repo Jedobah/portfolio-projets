@@ -3,116 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Run</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
+    <title>EXO RUN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- ----------------------Header------------ -->
+    <!-- -------------Navigation -------------------------------------- -->
+
+    <nav>
+      
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- -----------------------Header--------------------------- -->
+
     <header>
       <div class="container">
-        <div>
-          <h1>Run</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            repudiandae, sequi rem alias possimus beatae? Consequatur officia
-            accusantium odit placeat, repudiandae ab blanditiis, voluptas quidem
-            iusto, adipisci inventore doloribus fugiat.
-          </p>
-          <a href="#" class="button">Get Started</a>
+      <div>
+        <h1>Run</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolore nostrum natus, minima aut velit dolor voluptates soluta nulla aliquam eaque cupiditate? Asperiores blanditiis ea laboriosam? Sequi quas impedit fugit?</p>
+        <a href="#" class="btn">Get Started</a>
         </div>
       </div>
       <div class="img-banner"></div>
     </header>
+    <!-- -----------------Main----------------------------------- -->
 
-    <!-- --------------Sections------------------>
-    <section class="section-1">
-      <div class="img"></div>
-      <div class="container">
+    <main>
+      <section class="section-1">
+       <div class="img"></div>
+       <div class="container">
         <div>
-          <h2>Magna etiam feugiat</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            velit harum reiciendis expedita eius inventore, praesentium
-            reprehenderit rerum consequatur dolorem impedit magnam nam voluptate
-            aut! Dolores esse sit temporibus voluptate?
-          </p>
-          <a href="#" class="button">Learn More</a>
+        <h2> Magna etiam feugiat</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolore nostrum natus, minima aut velit dolor voluptates soluta nulla aliquam eaque cupiditate? Asperiores blanditiis ea laboriosam? Sequi quas impedit fugit?</p>
+        <a href="#" class="btn">Learn More</a>
         </div>
-      </div>
-    </section>
+       </div>
+      </section>
+
     <section class="section-2">
       <div class="container">
         <div>
           <h2>Tempus adipscing</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero in
-            fugiat est earum corrupti rem a aliquam pariatur suscipit? Tenetur
-            dolorum ipsum maiores. Maiores hic repudiandae labore reprehenderit.
-            Non, qui!
-          </p>
-          <a href="#" class="button">Learn More</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolore nostrum natus, minima aut velit dolor voluptates soluta nulla aliquam eaque cupiditate? Asperiores blanditiis ea laboriosam? Sequi quas impedit fugit?</p>
+        <a href="#" class="btn">Learn More</a>
         </div>
       </div>
       <div class="img"></div>
     </section>
-    <!-- Contact -->
+
+    </main>
+
+    <!-- ---------------------Contacts---------------------- -->
+
     <section class="contact">
-      <h2>Get in Touch</h2>
       <form action="#">
         <div class="form-grid">
           <div>
-            <label for="name">Name</label>
-            <input type="text" name="" id="name" />
+            <label for="fname">First name</label>
+          <input type="text" name="" id="fname">
+          </div>
+          <div>
+          <label for="lname">Last name</label>
+          <input type="text" name="" id="lname">
           </div>
           <div>
             <label for="email">Email</label>
-            <input type="email" name="" id="email" />
+            <input type="email" name="" id="email">
           </div>
           <div>
             <label for="message">Message</label>
             <textarea name="" id="message"></textarea>
           </div>
+          <div>
+            <input type="submit" class="btn" value="Submit">
+          </div>
         </div>
-        <input type="submit" class="button" value="Send Message" />
+        
       </form>
     </section>
-    <!------------------------- Footer-------------- -->
+    <!-- --------------------Footer----------- -->
+
     <footer>
       <ul>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-x-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-regular fa-envelope"></i>
-          </a>
-        </li>
+       <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+       <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+       <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+       <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+       <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
       </ul>
     </footer>
   </body>
