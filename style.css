@@ -329,13 +329,15 @@ nav ul li a:hover {
 }
 
   header,
-  .section-1,
+  /* .section-1, */
   .section-2 {
     display: flex;
     flex-direction: column;
     min-height: auto;
   }
-
+ header .img-banner {
+  height: 50vh;
+}
   .container {
     flex-direction: column;
     text-align: center;
@@ -355,6 +357,17 @@ nav ul li a:hover {
     line-height: 28px;
   }
 
+  .section-1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section-1 .img{
+  min-height: 30vh;
+}
+
+.section-2 .img{
+  min-height: 30vh;
+}
   .form-grid {
     grid-template-columns: 1fr;
     grid-template-areas:
