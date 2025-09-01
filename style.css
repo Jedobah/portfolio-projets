@@ -370,6 +370,7 @@ nav ul li a:hover {
 }
   .form-grid {
     grid-template-columns: 1fr;
+     grid-template-rows: 100px 100px 100px; /*  Pour un alignement vertical, j'ai changé grid temp col en 1fr et ai mis en grid temp rows 100px 100px et 100px, uniformisant ainsi le formulaire    */
     grid-template-areas:
       "f"
       "l"
