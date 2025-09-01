@@ -146,6 +146,10 @@ nav ul li a:hover {
   color: rgb(70, 72, 74);
 }
 
+nav ul li::after {
+  content: none;
+}
+
 /* ======================HEADER===================== */
 
 header {
@@ -287,6 +291,36 @@ align-items: center;
     align-items: center;
     gap: 15px;
   }
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li::before {
+    content: none; 
+  }
+
+
+nav ul li::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background: rgb(97, 100, 117);
+  bottom: -5px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav ul li:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+nav ul li a:hover {
+  color: rgb(70, 72, 74);
+}
 
   header,
   .section-1,
