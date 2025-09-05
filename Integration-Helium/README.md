@@ -1,18 +1,18 @@
-# 🌐 Intégration Hélium
+#  Intégration Hélium
 
-Une intégration front-end réalisée en **HTML5 / CSS3**, inspirée du site Helium.  
+Une intégration front-end réalisée en **HTML5 / CSS3**.  
 L’objectif de ce projet est de pratiquer la mise en page moderne (Flexbox, Grid) et de commencer à aborder la **responsivité** via des media queries.
 
 ---
 
-## 🚀 Aperçu
+##  Aperçu
 ### Capture d’écran
 Vue complète du site :  
-![Aperçu du projet](./screenshots/fullpage.png)
+![Aperçu du projet](./screenshots/fullpage.png) *À venir....*
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 - HTML5 (sémantique de base)  
 - CSS3 (Flexbox, Grid, Media Queries)  
 - Fonts custom (Inter)  
@@ -20,7 +20,7 @@ Vue complète du site :
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 Integration-Helium/
 ├── assets/ # images et polices
 ├── screenshots/ # captures d’écran
@@ -32,14 +32,14 @@ Integration-Helium/
 
 ---
 
-## 📱 Responsivité
+##  Responsivité
 - ✅ Version desktop (mise en page fixe).  
 - ✅ Premiers breakpoints avec **media queries**.  
 - ⚠️ Encore perfectible : certains ajustements responsives sont à améliorer.  
 
 ---
 
-## ✨ Améliorations prévues
+##  Améliorations prévues
 - [ ] Finaliser la responsivité pour mobile et tablettes.  
 - [ ] Optimiser la typographie et les espacements.  
 - [ ] Ajouter des animations et transitions pour améliorer l’expérience utilisateur.  
