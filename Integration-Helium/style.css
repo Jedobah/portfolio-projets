@@ -2,7 +2,7 @@
   font-family: "Inter";
   src: url(./assets/fonts/Inter-VariableFont_opsz\wght.ttf);
 }
-
+/* =======================RESET======================== */
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -35,6 +35,25 @@ nav ul {
  
 }
 
+button{
+  cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    width: 50%;
+    font-size: 0.7rem;
+}
+button:hover {
+  background-color:rgb(73, 73, 181) ;
+  text-shadow: 1px 1px 1px black;
+}
+/* =========================HEADER=============== */
 .header {
   display: flex;
   justify-content: space-around;
@@ -68,6 +87,8 @@ h1{
   width: 100%;
   margin: 0 auto;
 }
+
+/* =================================INFOS============== */
 .infos{
     display: flex;
     background-color: black;
@@ -78,26 +99,17 @@ h1{
     width: 33%;
 }
 .infos-left h3 {
- 
+ padding-left: 12px;
 }
 .btn-container{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     /* justify-content: space-around; */
     
 
 }
-button{
-    border: none;
-    padding: 10px 0;
-    margin: 5px;
-    border-radius: 10px;
-    color: white;
-    background-color: blue;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    width: 150px;
-}
+
 .infos-right{
     width: 67%;
    
