@@ -52,7 +52,7 @@ Typographie personnalisée via @font-face tirée de Google Font.
 
 Cloner le dépôt :
 
-git clone <https://github.com/Jedobah/porfolio-projets.git>
+git clone <https://github.com/Jedobah/portfolio-projets.git>
 
 
 
