@@ -17,19 +17,39 @@ Vue complète du site :
 - CSS3 (Flexbox, Grid, Media Queries)  
 - Fonts custom (Inter)  
 - Gestion d’assets (images, polices)  
+- Typographie personnalisée via @font-face tirée de Google Font.
 
 ---
 
 ##  Structure du projet
-Integration-Helium/
-├── assets/ # images et polices
-├── screenshots/ # captures d’écran
-├── index.html # page principale
-├── style.css # styles globaux
-└── README.md # documentation du projet
 
+- index.html
+ 
+- style.css
 
+- screenshots
 
+- README.md
+
+ <details>
+
+<summary>assets </summary>  
+
+-  img  
+
+    ![alt text](assets/img/investlogo2blue.png)
+
+    ![alt text](assets/img/investlogo3blue.png)
+
+    ![alt text](assets/img/investlogo4blue.png)
+
+    ![alt text](assets/img/main.png)
+
+- font  
+
+    ° Inter-VariableFont_opsz,wght.ttf
+
+</details>
 ---
 
 ##  Responsivité
