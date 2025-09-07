@@ -33,24 +33,27 @@ Vue complète du site :
 
  <details>
 
-<summary>assets </summary>  
+<summary>assets</summary>  
 
 -  img  
 
-    ![alt text](assets/img/investlogo2blue.png)
+    ° investlogo2blue.png
 
-    ![alt text](assets/img/investlogo3blue.png)
+    ° investlogo3blue.png
 
-    ![alt text](assets/img/investlogo4blue.png)
+    ° investlogo4blue.png
 
-    ![alt text](assets/img/main.png)
+    ° img/main.png
 
 - font  
 
     ° Inter-VariableFont_opsz,wght.ttf
 
 </details>
+
+
 ---
+
 
 ##  Responsivité
 - ✅ Version desktop (mise en page fixe).  
