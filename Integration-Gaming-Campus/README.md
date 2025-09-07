@@ -5,10 +5,10 @@ Le site n'est pas responsive pour l'instant. **Work in progress.**
 
 ## Objectifs
 
-- Rendre le site **responsive** pour tous les écrans
-- Ajouter des **animations sur les boutons** et interactions
-- Améliorer la mise en page pour plus de fluidité
-- Optimiser l'utilisation des images et assets
+- [ ] Rendre le site **responsive** pour tous les écrans
+- [ ] Ajouter des **animations sur les boutons** et interactions
+- [ ] Améliorer la mise en page pour plus de fluidité
+- [ ] Optimiser l'utilisation des images et assets
 
 ## Structure du projet
 
