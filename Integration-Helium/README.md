@@ -8,7 +8,7 @@ L’objectif de ce projet est de pratiquer la mise en page moderne (Flexbox, Gri
 ##  Aperçu
 ### Capture d’écran
 Vue complète du site :  
-![Aperçu du projet](./screenshots/fullpage.png) *À venir....*
+![Aperçu du projet](./screenshots/fullpage.png)
 
 ---
 
@@ -47,4 +47,4 @@ Integration-Helium/
 ---
 
 ##  Auteur
-Projet réalisé par *Jedobah* dans le cadre de son portfolio de développeur front-end.  
+Projet réalisé par **Jedobah** dans le cadre de son portfolio de développeur front-end.  

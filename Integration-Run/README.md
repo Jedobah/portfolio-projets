@@ -61,7 +61,7 @@ Ouvrir index.html dans un navigateur.
 
 ---
 
-## Notes
+ [!NOTE]
 
 
 
