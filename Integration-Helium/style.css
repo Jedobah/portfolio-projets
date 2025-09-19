@@ -22,34 +22,6 @@ body {
   background-color: rgb(28, 27, 27);
   color: rgb(239, 233, 233);
 }
-nav {
-
-  display:grid;
-  grid-template-columns: 50% 50%;
- 
-  padding: 10px 20px;
-}
-
-nav h2 {
-  cursor: pointer;
-}
-nav ul {
-   
-  display:grid ;
-  grid-template-columns: 45% 35% 20%;
-  
- 
-}
-
-nav ul li {
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-nav ul li:hover{
-  color: rgb(52, 52, 227) ;
-
-}
 
 button{
   cursor: pointer;
@@ -70,6 +42,42 @@ button:hover {
   background-color:rgb(73, 73, 181) ;
   text-shadow: 1px 1px 1px black;
 }
+/* ================================NAVBAR============= */
+nav {
+
+  display:grid;
+  grid-template-columns: 50% 40% 10%;
+ font-size: calc(0.5rem + 1.5vw);
+  padding: 10px 20px;
+}
+
+nav h2 {
+  cursor: pointer;
+}
+nav ul {
+   
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+
+  
+ 
+}
+
+nav ul li {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li:hover{
+  color: rgb(52, 52, 227) ;
+
+}
+
+#icons {
+  cursor: pointer;
+}
+
 /* =========================HEADER=============== */
 .header {
   display: flex;

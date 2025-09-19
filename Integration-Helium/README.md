@@ -1,7 +1,7 @@
 #  Intégration Hélium
 
-Une intégration front-end réalisée en **HTML5 / CSS3**.  
-L’objectif de ce projet est de pratiquer la mise en page moderne (Flexbox, Grid) et de commencer à aborder la **responsivité** via des media queries.
+Une intégration front-end réalisée en **HTML5 / CSS3 /JS**.  
+L’objectif de ce projet est de pratiquer la mise en page moderne (Flexbox, Grid) et de commencer à aborder la **responsivité** via des media queries, ainsi qu'un Burger menu.
 
 ---
 
@@ -14,7 +14,8 @@ Vue complète du site :
 
 ##  Technologies utilisées
 - HTML5 (sémantique de base)  
-- CSS3 (Flexbox, Grid, Media Queries)  
+- CSS3 (Flexbox, Grid, Media Queries) 
+- Javascript ( Burger Menu) 
 - Fonts custom (Inter)  
 - Gestion d’assets (images, polices)  
 - Typographie personnalisée via @font-face tirée de Google Font.
